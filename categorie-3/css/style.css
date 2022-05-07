@@ -1,0 +1,107 @@
+.categorie__inner {
+    text-align: center;
+    background-color: #e8e7e5;
+    padding: 20px 0 50px 0;
+}
+
+.categorie__title {
+    color: #393D3C;
+    margin-bottom: 63px;
+}
+
+.categorire__subtitle {
+    color: #393D3C;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 47px;
+}
+
+.categorie__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0 25px;
+}
+
+.categorie__item:first-child {
+    flex: 1;
+    padding-top: 25px;
+    border: 2px solid #393D3C;
+}
+
+.categorie__sort-by span,
+.categorie__sort-price span,
+.categorie__sort-color span {
+    display: block;
+    padding: 5px 20px;
+    border-bottom: 2px solid #393D3C;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.caregorie__sort-option-1,
+.caregorie__sort-option-2,
+.caregorie__sort-option-3,
+.caregorie__sort-option-4 {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.caregorie__sort-option-1:hover,
+.caregorie__sort-option-2:hover,
+.caregorie__sort-option-3:hover,
+.caregorie__sort-option-4:hover,
+.caregorie__sort-color-1:hover,
+.caregorie__sort-color-2:hover {
+    color: #AA8450;
+}
+
+.categorie__sort-scroll {
+    margin-bottom: 20px;
+}
+
+.caregorie__sort-color-1,
+.caregorie__sort-color-2 {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.categorie__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 15px;
+}
+
+.categorie__wrapper-item {
+    color: #E8E7E5;
+    position: relative;
+    overflow: hidden;
+}
+
+.categorie__wrapper-item:hover .categorie__wrapper-btn {
+    transform: translateY(150px);
+    transition: 0.2s;
+}
+
+.categorie__wrapper-description {
+    background-color: #856d5c;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.categorie__wrapper-money {
+    background-color: #393d3c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.categorie__wrapper-btn {
+    background-color: #aa85509e;
+    padding: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: 50px;
+    cursor: pointer;
+}

@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -32,7 +33,16 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-color: #f1f1f1;
+    color: #393D3C;
+    font-family: 'Inter', sans-serif;
 }
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -51,4 +61,107 @@ table {
 a{
 	text-decoration: none;
 	color: #393d3c;
+}
+.header__inner {
+    margin-bottom: 10px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.menu__link {
+    padding: 10px;
+}
+
+.menu__link:hover {
+    color: #e8e7e5;
+    background-color: #393D3C;
+}
+
+.menu__link--active {
+    color: #e8e7e5;
+    background-color: #393D3C;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart__money {
+    display: block;
+}
+
+/* about */
+
+.about__inner {
+    background-color: #856d5c;
+    padding: 20px 0;
+}
+
+.about__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.about__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.about__img {
+    margin-bottom: 12px;
+}
+/* footer */
+.footer__inner {
+    background-color: #393d3c;
+    padding: 20px;
+}
+
+.footer__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.footer__item {
+    color: #E8E7E5;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.footer__item:nth-child(2) {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer__location,
+.footer__telephone {
+    margin-right: 10px;
+}
+
+.footer__text {
+    color: #E8E7E5;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
 }

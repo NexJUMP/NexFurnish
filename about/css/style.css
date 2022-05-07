@@ -1,0 +1,64 @@
+
+.aboutus__inner {
+    background-image: url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16px 0 167px 0;
+    color: #E8E7E5;
+}
+
+.aboutus__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 75px;
+}
+
+.aboutus__text {
+    max-width: 560px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 16.94px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.personal__inner {
+    padding: 10px 0 45px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+.personal__title {
+    color: #393D3C;
+    margin-bottom: 25px;
+}
+.personal__items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 100px;
+    align-content: center;
+}
+.personal__item {
+
+}
+.personal__img {
+   margin-bottom: 16px;
+}
+.person__item-title {
+    border-bottom: 1px solid #393D3C;
+    width: 232px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.person__proffesion {
+    margin-bottom: 24px;
+}
+.person__description {
+}
+.person__proffesion,
+.person__description {
+    font-size: 14px;
+    line-height: 16.94px;
+}
