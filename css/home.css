@@ -106,6 +106,7 @@
     margin-bottom: 15px;
     font-weight: 900;
     font-size: 14px;
+    width: 100%;
 }
 
 .living__text {
@@ -170,10 +171,11 @@
 .promo__items {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .promo__img {
-    display: block;
+    width: 100%;
     border: 2px solid #393D3C;
     margin-bottom: 20px;
 }

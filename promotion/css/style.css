@@ -43,7 +43,7 @@
     transform: translateY(160px);
 }
 
-.promotion__img {}
+.promotion__img {width: 100%;}
 
 .promotion__description {
     background-color: #aa8450;
