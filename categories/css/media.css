@@ -1,0 +1,10 @@
+@media (max-width: 900px){
+    .categories__items{
+        gap: 40px;
+    }
+}
+@media (max-width: 700px){
+    .categories__items{
+        flex-wrap: wrap;
+    }
+}
