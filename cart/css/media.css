@@ -1,0 +1,21 @@
+@media (max-width: 600px){
+    .cart__item {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 400px){
+    .cart__total-table {
+        width: 200px;
+    }
+    .cart__total-btn {
+        width: 120px;
+    }
+}
+
+@media (max-width: 366px){
+    .menu__button {
+        top: 45px;
+    }
+}

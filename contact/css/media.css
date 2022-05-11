@@ -1,0 +1,11 @@
+@media (max-width: 650px){
+    .contact__items {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+}
+@media (max-width: 360px){
+    .contact__form {
+        width: 250px;
+    }
+}

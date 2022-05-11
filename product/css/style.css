@@ -1,97 +1,117 @@
-.product__inner{
+.product__inner {
     background-color: #e8e7e5;
     padding: 85px 0;
 }
+
 .product__items {
     display: flex;
     justify-content: space-around;
     gap: 70px;
     margin-bottom: 45px;
 }
+
 .product__item:first-child {
     display: grid;
     grid-template-areas:
-    '. two one'
-    '. three one'
-    '. four one'
-    '. five one';
+        '. two one'
+        '. three one'
+        '. four one'
+        '. five one';
+
     grid-gap: 20px 30px;
 }
+
 .product__content:nth-child(1) {
     grid-area: one;
 }
+
 .product__content:nth-child(2) {
     grid-area: two;
 }
+
 .product__content:nth-child(3) {
     grid-area: three;
 }
+
 .product__content:nth-child(4) {
     grid-area: four;
 }
+
 .product__content:nth-child(5) {
     grid-area: five;
 }
-.product__item:last-child{
+
+.product__item:last-child {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     font-weight: 700;
 }
-.product__attributs{
+
+.product__attributs {
     font-weight: 400;
     width: 260px;
     padding: 20px;
 }
-.product__attribut{
+
+.product__attribut {
     margin-bottom: 20px;
 }
-.product__money{
+
+.product__money {
     color: #856D5C;
 }
-.product__availability span{
-color: #399B3D;
+
+.product__availability span {
+    color: #399B3D;
 }
-.product__quantity{
+
+.product__quantity {
     display: flex;
     justify-content: space-between;
     width: 150px;
 }
+
 .product__quantity div {
     cursor: pointer;
     background-color: #c4c4c4;
     border-radius: 50px;
     padding: 15px;
 }
-.product__btn{
+
+.product__btn {
     color: #E8E7E5;
     background-color: #856d5c;
     padding: 10px 35px;
     cursor: pointer;
 }
-.product__description{
+
+.product__description {
     text-align: center;
     color: #856D5C;
     font-weight: 700;
 }
+
 .product__description-title {
     color: #393D3C;
     margin-bottom: 30px;
 }
+
 .product__info {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
 .product__dimensions {
     width: 120px;
     text-align: left;
     margin: 0 auto;
 }
-.product__height {
-}
-.product__width {
-}
-.product__depth {
-}
+
+.product__height {}
+
+.product__width {}
+
+.product__depth {}
