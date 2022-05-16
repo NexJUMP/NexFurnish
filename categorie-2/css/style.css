@@ -84,6 +84,10 @@
     transition: 0.2s;
 }
 
+.categorie__wrapper-img{
+    width: 100%;
+}
+
 .categorie__wrapper-description {
     background-color: #856d5c;
     font-size: 12px;

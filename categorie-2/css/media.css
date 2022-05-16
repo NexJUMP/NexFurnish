@@ -1,0 +1,26 @@
+@media (max-width: 800px) {
+    .categorie__items{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .categorie__sort{
+        display: flex;
+    }
+    .categorie__sort > div{
+        border: 1px solid #393D3C;
+    }
+}
+
+@media (max-width: 660px){
+    .categorie__wrapper{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px 15px;
+    }
+}
+
+@media (max-width: 450px) {
+    .categorie__wrapper{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px 15px;
+    }
+}

@@ -345,6 +345,7 @@ a {
         position: absolute;
         left: 0;
         right: 0;
+        z-index: 99;
     }
 
     .menu__list.menu__list--active {
