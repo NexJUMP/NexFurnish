@@ -31,11 +31,14 @@
                         </ul>
                     </nav>
 
+                    
+
                     <a class="cart" href="./cart/cart.html"><img src="./images/cart.svg" alt="cart"><span
                             class="cart__text">CART
                             <span class="cart__money">0,00 MDL</span></a>
+                            
                 </div>
-
+                <div id="google_element" width="50"></div>
                  <div class="header__bottom">
                     <div class="wrapper">
                         <div class="header__bottom-item">
@@ -74,17 +77,17 @@
                     <div class="living__item">
                         <img src="./images/living-1.jpg" alt="living" class="living__img">
                         <div class="living__text">future living Venetia 280 cm</div>
-                        <div class="living__btn">Add to cart</div>
+                        
                     </div>
                     <div class="living__item">
                         <img src="./images/living-2.jpg" alt="living" class="living__img">
                         <div class="living__text">future living Canada 280 cm</div>
-                        <div class="living__btn">Add to cart</div>
+                      
                     </div>
                     <div class="living__item">
                         <img src="./images/living-3.jpg" alt="living" class="living__img">
                         <div class="living__text">future living Austria 280 cm</div>
-                        <div class="living__btn">Add to cart</div>
+                        
                     </div>
                 </div>
                 <div class="living__btn living__showBTN">
@@ -195,6 +198,12 @@
         </div>
     </footer> 
     <script src="./js/index.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement("google_element")
+        }
+    </script>
 </body>
 
 </html>

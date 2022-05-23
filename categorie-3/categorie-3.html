@@ -43,6 +43,7 @@
 
     <section class="categorie">
         <div class="container">
+            <div id="google_element"></div>
             <div class="categorie__inner">
                 <div class="categorie__title title">CATEGORIE</div>
 
@@ -55,16 +56,12 @@
                             <div class="caregorie__sort-option-3">Higher price</div>
                             <div class="caregorie__sort-option-4">Lower price </div>
                         </div>
-                        <div class="categorie__sort-price">
-                            <span>Price</span>
-                            <div class="categorie__sort-scroll">
-                                0------9999
-                            </div>
-                        </div>
                         <div class="categorie__sort-color">
                             <span>COLOR</span>
                             <div class="caregorie__sort-color-1">white</div>
-                            <div class="caregorie__sort-color-2">gray</div>
+                            <div class="caregorie__sort-color-2">purple</div>
+                            <div class="caregorie__sort-color-3">green</div>
+                            <div class="caregorie__sort-color-3">pink</div>
                         </div>
                     </div>
                     <div class="categorie__item">
@@ -75,63 +72,63 @@
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-1.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">K-104 chair</div>
-                                <div class="categorie__wrapper-money">2500 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="white">2500 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-2.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">Emma's chair</div>
-                                <div class="categorie__wrapper-money">1250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="white">1250 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-3.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">Barkley chair</div>
-                                <div class="categorie__wrapper-money">2250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="white">2250 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-4.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">Bankett chair</div>
-                                <div class="categorie__wrapper-money">2500 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="purple">2500 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-5.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">K-305 chair</div>
-                                <div class="categorie__wrapper-money">1250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="green">1250 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-6.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">K-416 chair</div>
-                                <div class="categorie__wrapper-money">2250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="green">2250 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-7.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">Adel chair</div>
-                                <div class="categorie__wrapper-money">2500 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="pink">2500 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-8.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">Cleopatra chair</div>
-                                <div class="categorie__wrapper-money">1250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="pink">1250 lei</div>
                             </div>
                             <div class="categorie__wrapper-item">
                                 <div class="categorie__wrapper-btn"><img src="./images/cart.svg" alt="cart"
                                         class="categorie__addCart"></div>
                                 <img src="./images/categorie-9.jpg" alt="categorie" class="categorie__wrapper-img">
                                 <div class="categorie__wrapper-description">K-283 chair</div>
-                                <div class="categorie__wrapper-money">2250 lei</div>
+                                <div class="categorie__wrapper-money" data-price="" data-color="pink">2250 lei</div>
                             </div>
                         </div>
                     </div>
@@ -196,7 +193,15 @@
             </div>
         </div>
     </footer>
+    <script src="./js/cart.js"></script>
     <script src="../js/index.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement("google_element")
+        }
+        </script>
 </body>
 
 </html>

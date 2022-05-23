@@ -36,6 +36,13 @@ margin-bottom: 33px;
     border-radius: 50px;
     padding: 5px;
 }
+.cart__img{
+    width: 66px;
+    height: 47px;
+}
+.cart__text {
+    width: 300px;
+}
 .cart__total{
     text-align: center;
 }

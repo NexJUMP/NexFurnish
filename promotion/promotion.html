@@ -42,6 +42,7 @@
 
     <section class="promotion">
         <div class="container">
+            <div id="google_element"></div>
             <div class="promotion__inner">
                 <div class="promotion__title title">PROMOTION</div>
                 <div class="promotion__items">
@@ -149,6 +150,12 @@
         </div>
     </footer>
     <script src="../js/index.js"></script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+    <script>
+        function loadGoogleTranslate() {
+            new google.translate.TranslateElement("google_element")
+        }
+    </script>
 </body>
 
 </html>

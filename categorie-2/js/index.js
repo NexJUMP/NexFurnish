@@ -94,3 +94,43 @@ buttonsSortColor[1].addEventListener('click', () => {
 		}
 	});
 }); 
+
+buttonsSortColor[2].addEventListener('click', () => {
+	const arrColorGray = cards.map(card => {
+		const div = card.querySelector('.categorie__wrapper-money');
+		const color = div.getAttribute('data-color');
+	
+		if (color == 'blue') {
+			card.style.display = '';
+		}else {
+			card.style.display = 'none';
+		}
+	});
+}); 
+
+buttonsSortColor[3].addEventListener('click', () => {
+	const arrColorGray = cards.map(card => {
+		const div = card.querySelector('.categorie__wrapper-money');
+		const color = div.getAttribute('data-color');
+	
+		if (color == 'yellow') {
+			card.style.display = '';
+		}else {
+			card.style.display = 'none';
+		}
+	});
+}); 
+
+buttonsSortColor[4].addEventListener('click', () => {
+	const arrColorGray = cards.map(card => {
+		const div = card.querySelector('.categorie__wrapper-money');
+		const color = div.getAttribute('data-color');
+	
+		if (color == 'red') {
+			card.style.display = '';
+		}else {
+			card.style.display = 'none';
+		}
+	});
+}); 
+

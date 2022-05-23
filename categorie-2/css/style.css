@@ -53,7 +53,10 @@
 .caregorie__sort-option-3:hover,
 .caregorie__sort-option-4:hover,
 .caregorie__sort-color-1:hover,
-.caregorie__sort-color-2:hover {
+.caregorie__sort-color-2:hover,
+.caregorie__sort-color-3:hover,
+.caregorie__sort-color-4:hover,
+.caregorie__sort-color-5:hover{
     color: #AA8450;
 }
 
@@ -62,7 +65,10 @@
 }
 
 .caregorie__sort-color-1,
-.caregorie__sort-color-2 {
+.caregorie__sort-color-2,
+.caregorie__sort-color-3,
+.caregorie__sort-color-4,
+.caregorie__sort-color-5 {
     margin-bottom: 20px;
     cursor: pointer;
 }
